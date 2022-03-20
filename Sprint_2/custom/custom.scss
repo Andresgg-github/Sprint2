@@ -1,6 +1,7 @@
 $naranja:#F45959;
 $azul: #5265E1;
 $blanco:#f8f8fa;
+$azuloscuro: rgb(4, 18, 128);
 
 
 $theme-colors:(
@@ -11,7 +12,8 @@ $theme-colors:(
 
 $custom-colors:(
     "micolor": rgb(255, 217, 0),
-    "blanco":$blanco
+    "blanco":$blanco,
+    "azulo":$azuloscuro
 );
 
 $theme-colors:map-merge( $theme-colors,$custom-colors);
@@ -34,15 +36,15 @@ $theme-colors:map-merge( $theme-colors,$custom-colors);
 $card-border-color: white;
 
 .arriba,.medio,.abajo{
-    /* display: flex; */
+  
     flex-flow: column nowrap;
     min-height: 400px;
     max-width: 250px;
-    /* margin:5px; */
-    /* text-align: center;
-    align-items: center; */
-    /* padding: 5px; */
+  
     
+}
+.social:hover{
+    background-color: $naranja;
 }
 
 
