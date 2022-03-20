@@ -1,0 +1,34 @@
+$naranja:#F45959;
+$azul: #5265E1;
+$blanco:#f8f8fa;
+
+
+$theme-colors:(
+    "primary":$naranja,
+    "secondary":$azul
+
+);
+
+$custom-colors:(
+    "micolor": rgb(255, 217, 0),
+    "blanco":$blanco
+);
+
+$theme-colors:map-merge( $theme-colors,$custom-colors);
+
+
+#navlogin:hover{
+    background-color: $blanco;
+}
+.card{
+    border: 1px solid white;
+}
+
+
+
+// #curvado{
+//     background-color: $azul;
+//     border-radius: 10px 15px 15px 10px;
+// }
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
