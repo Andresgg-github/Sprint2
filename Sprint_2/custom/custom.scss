@@ -33,6 +33,18 @@ $theme-colors:map-merge( $theme-colors,$custom-colors);
 
 $card-border-color: white;
 
+.arriba,.medio,.abajo{
+    /* display: flex; */
+    flex-flow: column nowrap;
+    min-height: 400px;
+    max-width: 250px;
+    /* margin:5px; */
+    /* text-align: center;
+    align-items: center; */
+    /* padding: 5px; */
+    
+}
+
 
 // #curvado{
 //     background-color: $azul;
