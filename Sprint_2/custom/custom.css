@@ -6,6 +6,13 @@
   border: 1px solid white;
 }
 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border-top: #FFFFFF;
+  border-right: #FFFFFF;
+  border-left: #FFFFFF;
+  border-bottom: 4px solid #F45959;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -4815,7 +4822,7 @@ fieldset:disabled .btn {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid white;
   border-radius: 0.25rem;
 }
 
@@ -4874,7 +4881,7 @@ fieldset:disabled .btn {
   padding: 0.5rem 1rem;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, 0.03);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid white;
 }
 
 .card-header:first-child {
@@ -4884,7 +4891,7 @@ fieldset:disabled .btn {
 .card-footer {
   padding: 0.5rem 1rem;
   background-color: rgba(0, 0, 0, 0.03);
-  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-top: 1px solid white;
 }
 
 .card-footer:last-child {
